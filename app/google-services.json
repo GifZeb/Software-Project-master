@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "835426997494",
+    "firebase_url": "https://arboretum-78f7c.firebaseio.com",
+    "project_id": "arboretum-78f7c",
+    "storage_bucket": "arboretum-78f7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835426997494:android:16f15e91d6c53318",
+        "android_client_info": {
+          "package_name": "com.example.n01204206.milestone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835426997494-cshurona051sn4ar6oohchovnrg68bov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.n01204206.milestone",
+            "certificate_hash": "303fdca3c182e6b484660faf4f407883855e81d8"
+          }
+        },
+        {
+          "client_id": "835426997494-a9jveji0qkjco6533tnrhgtjubm2su75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6rAeWM_Of1CIkh9dcxCbgGcVjxyRT4YM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835426997494-a9jveji0qkjco6533tnrhgtjubm2su75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

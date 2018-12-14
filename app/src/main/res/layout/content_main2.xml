@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/app_bar_main2"
+    android:background="?attr/backgroundcolor">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="2dp"
+                android:background="#e53935"
+                android:gravity="center"
+                android:text="@string/current_humidity_in_arboretum"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/readhumidity"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:background="#e53935"
+                android:textSize="25sp"
+                android:layout_marginBottom="3dp"
+                android:text="TextView"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#008577"
+                android:gravity="center"
+                android:text="@string/current_temperature_in_arboretum"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/readtemp"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:background="#008577"
+                android:layout_marginBottom="3dp"
+                android:text="TextView"
+                android:textSize="25sp"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#5f0085"
+                android:gravity="center"
+                android:text="@string/current_moisture_level_in_soil"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/readmoisture"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:background="#5f0085"
+                android:textSize="25sp"
+                android:layout_marginBottom="3dp"
+                android:text="TextView"
+                android:textColor="#FFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#20508f"
+                android:gravity="center"
+                android:text="@string/current_date"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/readtime"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:background="#20508f"
+                android:layout_marginBottom="3dp"
+                android:text="TextView"
+                android:textColor="#FFF"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#008577"
+                android:text="@string/camera"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:onClick="onClick"/>
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/enter_your_location"
+                android:textSize="20sp"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/getdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@color/red"
+                android:textColor="@color/colorWhite"
+                android:text="@string/get_data" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

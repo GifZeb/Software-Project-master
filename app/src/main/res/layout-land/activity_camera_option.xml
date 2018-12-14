@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraOption"
+    android:background="?attr/backgroundcolor">
+
+    <ImageView
+        android:id="@+id/cameraPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="202dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginStart="89dp"
+        android:text="@string/share" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/share"
+        android:background="@color/red"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="51dp"
+        android:text="@string/camera" />
+
+    <Button
+        android:id="@+id/Gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/camera"
+        android:background="@color/red"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp"
+        android:text="@string/gallery" />
+
+</RelativeLayout>

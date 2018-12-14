@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">ÉCRAN DE CONNEXION</string>
+    <string name="login">S\'IDENTIFIER</string>
+    <string name="facebook">Connectez-vous avec Facebook</string>
+    <string name="gmail">Connectez-vous avec Gmail</string>
+    <string name="forgot_password">mot de passe oublié?</string>
+    <string name="new_here_create_account">Nouveau ici? Créer un compte</string>
+    <string name="fb_app_id">App_ID</string>
+    <string name="fb_login_id">fb_App_ID</string>
+    <string name="submit">Soumettre</string>
+    <string name="please_enter_your_username_again_for_verification">Veuillez entrer votre nom d\'utilisateur à nouveau pour vérification.</string>
+    <string name="please_enter_5_digit_code_sent_to_you_on_your_mobile_number">Veuillez entrer le code à 5 chiffres qui vous a été envoyé sur votre numéro de téléphone portable:</string>
+    <string name="enter_new_password">Entrez un nouveau mot de passe</string>
+    <string name="please_enter_your_password_again">Veuillez resaisir votre mot de passe</string>
+    <string name="enter_your_code_here">Entrez votre code ici</string>
+    <string name="enter_your_fullname_here">Entrez votre nom complet ici</string>
+    <string name="enter_your_phone_number">Entrez votre identifiant email</string>
+    <string name="enter_your_address_here">Entrez votre adresse ici</string>
+    <string name="enter_password">Entrer le mot de passe</string>
+    <string name="type_your_password_again">Tapez votre mot de passe à nouveau</string>
+    <string name="action_settings">Réglages</string>
+    <string name="loading">Chargement</string>
+    <string name="Open">Garderie</string>
+    <string name="Close">Garderie</string>
+    <string name="main">Principale</string>
+    <string name="enter_your_number_here">Entrez votre nom d\'utilisateur</string>
+    <string name="humidity_level">Niveau d\'humidité</string>
+    <string name="temperature_level">Niveau de température</string>
+    <string name="soil_moisture_level">Niveau d\'humidité du sol</string>
+    <string name="_88">88%</string>
+    <string name="_87">87%</string>
+    <string name="_72">72%</string>
+    <string name="already_user">déjà_utilisateur? Cliquez ici</string>
+    <string name="enter_password_again">entrer le mot de passe à nouveau</string>
+    <string name="enter_your_name">entrez identifiant email nom</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="password">mot de passe</string>
+    <string name="username">identifiant email</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">Studio Android</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="current_humidity_in_arboretum">Humidité actuelle dans l\'arboretum</string>
+    <string name="current_temperature_in_arboretum">Température actuelle en arboretum</string>
+    <string name="current_moisture_level_in_soil">Niveau d\'humidité actuel dans le sol</string>
+    <string name="take_picture">Prendre une photo</string>
+    <string name="title_activity_main2">activité2principale</string>
+    <string name="current_date">Date actuelle</string>
+    <string name="title_activity_main_screen">Écran principal</string>
+    <string name="etobicoke">ETOBICOKE</string>
+    <string name="brampton">BRAMPTON</string>
+    <string name="toronto">TORONTO</string>
+    <string name="lakeshore">LAKESHORE</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="confirm">Confirmer</string>
+    <string name="forth_layout">Quatrième Disposition</string>
+    <string name="third_layout">Troisième disposition</string>
+    <string name="second_layout">Deuxième mise en page</string>
+    <string name="first_layout">Première mise en page</string>
+    <string name="Back">Retour</string>
+    <string name="Email">Identifiant Email</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="forgot_password_message">Message de mot de passe oublié</string>
+    <string name="don_t_share">NE PAS PARTAGER</string>
+    <string name="share">PARTAGER</string>
+    <string name="facebook_id">12341234</string>
+    <string name="camera">Caméra</string>
+    <string name="home">Accueil</string>
+    <string name="settings">Réglages</string>
+    <string name="help">Aidez-moi</string>
+    <string name="log_out">Connectez - Out</string>
+    <string name="night_mode">Mode nuit</string>
+    <string name="enable_dark_mode">Activer le mode sombre</string>
+    <string name="change_mode_to_day_or_night_time">Changer le mode de jour ou de nuit</string>
+    <string name="change_mode">Changer de mode</string>
+    <string name="change_mode_to_day_or_night_mode">Changer de mode en mode jour ou nuit</string>
+
+    <string name="how_do_i_check_for_the_readings">Comment puis-je vérifier les lectures?</string>
+    <string name="ans1">Par défaut, l’écran principal affiche les lectures de l’arboretum à une date donnée. Le nouvel ajout ou la récupération de données supplémentaires a été ajouté. Cette nouvelle implémentation vous montrera les valeurs de données précédentes.</string>
+    <string name="what_if_i_forget_my_account_password">Et si j\'oublie le mot de passe de mon compte?</string>
+    <string name="ans2">Si vous avez oublié votre mot de passe, cliquez sur le lien qui vous demandera votre email. Après avoir entré votre email, allez sur votre email et il vous sera demandé de saisir un nouveau mot de passe Vous pouvez maintenant accéder à votre compte en utilisant un nouveau mot de passe.</string>
+    <string name="gallery">Galerie</string>
+    <string name="headingofapp">Surveillance d\'arboretum en temps réel</string>
+    <string name="already_logged_in">Déjà connecté</string>
+    <string name="enteremailid">Entrez votre identifiant email enregistré</string>
+    <string name="emailsent">Les instructions pour réinitialiser votre mot de passe vous ont été envoyées!</string>
+    <string name="failtosend">Pardon!! Impossible d\'envoyer l\'email de réinitialisation! Veuillez réessayer…</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="youarenowloggedin">Vous êtes maintenant connecté</string>
+    <string name="signinfailed">signeDansAvecNom d\'utilisateur:échec</string>
+    <string name="authenticationfailed">Authentification échouée</string>
+    <string name="dataloadingfailed">Chargement des données annulé / échoué.</string>
+    <string name="entercity">S\'il vous plaît entrer la ville !!!!!!</string>
+    <string name="enter_your_location">Entrez votre emplacement</string>
+    <string name="get_data">Obtenir des données</string>
+    <string name="maps">Plans</string>
+    <string name="nosavedstate">surRestaurerExempleEtat: Pas d\'état sauvegardé !!!</string>
+    <string name="valuesstored">Valeurs stockées</string>
+    <string name="values_saved">Valeurs sauvegardées</string>
+
+    <string name="enter_old_email_id">Entrez votre ancien identifiant</string>
+    <string name="enter_new_email_id">Entrez le nouvel identifiant de messagerie</string>
+    <string name="change_email_id">Modifier l\'ID de messagerie</string>
+    <string name="enter_old_password">Entrer l\'ancien mot de passe</string>
+    <string name="change_pass">Changer le mot de passe</string>
+    <string name="enter_new_pass">Entrez un nouveau mot de passe</string>
+
+    <string name="emailnotupdated">Échec de la mise à jour du courrier électronique!</string>
+    <string name="emailupdated">L\'adresse email est mise à jour. Veuillez vous connecter avec le nouvel identifiant de messagerie!</string>
+    <string name="enteremail">Entrer email</string>
+    <string name="passwordshort">Mot de passe trop court, entrez au moins 6 caractères</string>
+    <string name="passwordupdated">Le mot de passe est mis à jour, connectez-vous avec un nouveau mot de passe!</string>
+    <string name="passwordnotupdated">Impossible de mettre à jour le mot de passe!</string>
+    <string name="enterpassword">Entrer le mot de passe</string>
+
+    <string name="delete_account">Supprimer le compte</string>
+    <string name="delete">Effacer</string>
+    <string name="Accountdeleted">Votre profil est maintenant supprimé :( Créez un nouveau compte maintenant!</string>
+    <string name="accountnotdeleted">Impossible de supprimer votre compte! Réessayer....</string>
+
+    <string-array name="list_preference_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>Jamais</item>
+    </string-array>
+
+    <string-array name="list_preference_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>-1</item>
+    </string-array>
+
+</resources>
